@@ -116,12 +116,7 @@ public class MainLayout extends AppLayout {
 
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
-                new MenuItemInfo("Hello World", "la la-globe", HelloWorldView.class), //
-
-                new MenuItemInfo("DefaultTarget", "", DefaultTargetView.class), //
-
-                new MenuItemInfo("OverrideTarget", "", OverrideTargetView.class), //
-
+                new MenuItemInfo("Hello World", "la la-globe", HelloWorldView.class),
         };
     }
 
